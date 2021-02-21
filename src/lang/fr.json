@@ -1,0 +1,13 @@
+{
+  "shortName": "fr",
+  "fullName": "Français",
+  "util": {
+    "something-went-wrong": "Oups! Quelque chose ne vas pas :(",
+    "bad-usage": "Vous n'avez pas écrit la commande correctement...",
+    "my-prefix-is": "Mon prefix est `{PREFIX} sur ce serveur`",
+    "err-execute-command": "Il y a eu une erreur pendant l'éxécution de cette commande"
+  },
+  "commands": {
+    "no-voc-channel": "Je suis désolé mais vous devez être dans un salon vocal pour écouter de la musique"
+  }
+}

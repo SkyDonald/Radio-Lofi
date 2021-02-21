@@ -1,0 +1,13 @@
+{
+  "shortName": "en",
+  "fullName": "English",
+  "util": {
+    "something-went-wrong": "Oops! Something went wrong :(",
+    "bad-usage": "You didn't write the command correctly...",
+    "my-prefix-is": "My prefix is `{PREFIX}` in this guild",
+    "err-execute-command": "There was an error trying to execute that command"
+  },
+  "commands": {
+    "no-voc-channel": "I'm sorry but you need to be in a voice channel to play music"
+  }
+}
