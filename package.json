@@ -1,6 +1,6 @@
 {
   "name": "radio-lofi",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A lofi radio for Discord",
   "main": "src/index.ts",
   "scripts": {
