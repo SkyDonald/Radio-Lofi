@@ -2,6 +2,7 @@ import { Message } from 'discord.js';
 import langOption from '../Utils/langs';
 import Bot from './../Utils/Bot';
 import { guildSettings } from './../Utils/Bot.d';
+const ytdl = require('ytdl-core');
 
 export default {
   name: 'join',
@@ -16,7 +17,7 @@ export default {
         const connection = await channel.join();
         message.guild.voice.setSelfDeaf(true);
         connection
-          .play(bot.stream)
+          .play(ytdl('https://www.youtube.com/watch?v=5qap5aO4i9A'))
           .on('finish', () => play())
           .on('error', (err) => {
             console.error(err);

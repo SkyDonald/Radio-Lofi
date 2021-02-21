@@ -7,7 +7,6 @@ import { Video } from 'youtube-sr';
 import { db, configOption, commandOption, eventOption } from './Bot.d';
 import langOption from './langs.d';
 import UtilInterface from './Util.d';
-import { Readable } from 'stream';
 import { connect } from 'mongoose';
 
 export default class Bot {
@@ -21,7 +20,6 @@ export default class Bot {
   commands: Collection<string, commandOption>;
   events: Collection<string, eventOption>;
   langs: Collection<string, langOption>;
-  stream: Readable;
 
   constructor(clientOptions?: ClientOptions) {
     this.commands = new Collection();
